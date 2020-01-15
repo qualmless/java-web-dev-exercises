@@ -1,5 +1,7 @@
 package org.launchcode.java.demos.lsn2controlflowandcollections;
 
+import java.util.Arrays;
+
 public class ArrayPractice {
 
     public static void main(String[] args) {
@@ -15,9 +17,10 @@ public class ArrayPractice {
 
 
         String toDivide = "I would not, could not, in a box. I would not, could not with a fox. I will not eat them in a house. I will not eat them with a mouse.";
-        String[] arrayOfString = toDivide.split(" ");
-        System.out.println(arrayOfString);
+//        String[] arrayOfString = new String[toDivide.split(" ")];
+//        System.out.println(Arrays.toString(toDivide.split(" ")));
+        String[] arrayOfString = {Arrays.toString(toDivide.split(" "))};
         System.out.println(Arrays.toString(arrayOfString));
-
+        System.out.println(Arrays.toString(arrayOfString).length());
     }
 }
