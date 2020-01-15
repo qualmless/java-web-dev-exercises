@@ -13,9 +13,9 @@ public class charCounter {
         Map<Character,Integer> countedChars = new HashMap<>();
 
 //        System.out.println(hiddenArray[8]);
-        for (int i=0; i<hiddenNumber; i++) {
-            System.out.println(i);
-        }
+//        for (int i=0; i<hiddenNumber; i++) {
+//            System.out.println(i);
+//        }
 
     }
 }
