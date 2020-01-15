@@ -16,5 +16,14 @@ public class arrayListPractice {
         sumInts.add(8);
         sumInts.add(9);
         sumInts.add(10);
+
+        int sumOfNums = 0;
+        for (int i = 0; i < sumInts.size(); i++) {
+            if (sumInts.get(i) % 2 == 0 ) {
+                sumOfNums += sumInts.get(i);
+            }
+        }
+        System.out.println(sumOfNums);
+
     }
 }
