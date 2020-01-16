@@ -1,45 +1,39 @@
 package org.launchcode.java.demos.lsn2controlflowandcollections;
 
+import org.launchcode.java.demos.lsn1datatypes.Message;
+
 import java.util.Arrays;
 import java.util.ArrayList;
 
 public class arrayListPractice {
+
+    public static Object sumOfNums;
+
     public static void main(String[] args) {
         //array list sum
         ArrayList<Integer> sumInts = new ArrayList<>();
-        sumInts.add(1);
-        sumInts.add(2);
-        sumInts.add(3);
-        sumInts.add(4);
-        sumInts.add(5);
-        sumInts.add(6);
-        sumInts.add(7);
-        sumInts.add(8);
-        sumInts.add(9);
-        sumInts.add(10);
-
-        int sumOfNums = 0;
-        for (int i = 0; i < sumInts.size(); i++) {
-            if (sumInts.get(i) % 2 == 0 ) {
-                sumOfNums += sumInts.get(i);
-            }
+        for (int i = 0; i<11; i++) {
+            sumInts.add(i);
         }
+
+        int sumOfNums = SumOfNums.addNums(sumInts);
         System.out.println(sumOfNums);
-//array list word length
-        ArrayList<String> someWords = new ArrayList<>();
-        someWords.add("banana");
-        someWords.add("scarf");
-        someWords.add("hat");
-        someWords.add("prime");
-        someWords.add("actually");
-        someWords.add("black");
-        someWords.add("haunt");
 
-        for (int i = 0; i < someWords.size(); i++) {
-            if (someWords.get(i).length() == 5) {
-                System.out.println(someWords.get(i));
-            }
-        }
+//array list word length
+//        ArrayList<String> someWords = new ArrayList<>();
+//        someWords.add("banana");
+//        someWords.add("scarf");
+//        someWords.add("hat");
+//        someWords.add("prime");
+//        someWords.add("actually");
+//        someWords.add("black");
+//        someWords.add("haunt");
+//
+//        for (int i = 0; i < someWords.size(); i++) {
+//            if (someWords.get(i).length() == 5) {
+//                System.out.println(someWords.get(i));
+//            }
+//        }
 
     }
 }

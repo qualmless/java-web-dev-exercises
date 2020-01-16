@@ -17,8 +17,6 @@ public class ArrayPractice {
 
 
         String toDivide = "I would not, could not, in a box. I would not, could not with a fox. I will not eat them in a house. I will not eat them with a mouse.";
-//        String[] arrayOfString = new String[toDivide.split(" ")];
-//        System.out.println(Arrays.toString(toDivide.split(" ")));
         String[] arrayOfString = {Arrays.toString(toDivide.split(" "))};
         System.out.println(Arrays.toString(arrayOfString));
         System.out.println(Arrays.toString(arrayOfString).length());
