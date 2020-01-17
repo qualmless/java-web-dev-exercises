@@ -1,5 +1,6 @@
 package org.launchcode.java.demos.lsn2controlflowandcollections;
-
+import org.launchcode.java.demos.lsn1datatypes.Message;
+import java.util.Arrays;
 import java.util.ArrayList;
 
 public class SumOfNums {

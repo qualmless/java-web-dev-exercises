@@ -8,6 +8,9 @@ import java.util.ArrayList;
 public class arrayListPractice {
 
     public static Object sumOfNums;
+//    public static Object arrayListWordLength;
+    private static Object finalWordsToCount;
+
 
     public static void main(String[] args) {
         //array list sum
@@ -29,8 +32,17 @@ public class arrayListPractice {
         someWords.add("black");
         someWords.add("haunt");
 
-        ArrayList<String> arrayListWordLength = arrayListWordLength.wordCount(finalWordsToCount)
-        System.out.println(arrayListWordLength);
+//        for (int i = 0; i < someWords.size(); i++) {
+//            if (someWords.get(i).length() == 5) {
+//                System.out.println(someWords.get(i));
+////                finalWordsToCount.add(someWords.get(i));
+//            }
+//        }
+
+//        ArrayList<String> arrayListWordLength = ArrayListWordLength.wordCount(finalWordsToCount);
+//        System.out.println(arrayListWordLength);
+        System.out.println(someWords);
+
 
 
 
