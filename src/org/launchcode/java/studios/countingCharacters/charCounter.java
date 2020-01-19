@@ -18,18 +18,17 @@ public class charCounter {
     }
 
     private static Map<Character, Integer> countCharacters(String inputText) {
-        char[] hiddenArray = inputText.toCharArray();
+        char[] hiddenArray = inputText.toLowerCase().toCharArray();
         Map<Character, Integer> countedChars = new HashMap<>();
 
         for (char currentLetter : hiddenArray) {
-            System.out.println(currentLetter);
             if (Character.isLetter(currentLetter)) {
                 if (countedChars.containsKey(currentLetter)) {
                     int currentVal = countedChars.get(currentLetter);
-                    countedChars.put(currentLetter, currentVal++);
+                    countedChars.put(currentLetter, currentVal+1);
                 }
                 else {
-                    countedChars.put(currentLetter, 0);
+                    countedChars.put(currentLetter, 1);
                 }
             }
         }
