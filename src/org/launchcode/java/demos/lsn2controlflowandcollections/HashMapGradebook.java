@@ -37,10 +37,10 @@ public class HashMapGradebook {
 
         for (Map.Entry<String, Double> student : students.entrySet()) {
             System.out.println(student.getKey() + " (" + student.getValue() + ")");
-            sum += student.getValue();
+//            sum += student.getValue();
         }
 
-        double avg = sum / students.size();
-        System.out.println("Average grade: " + avg);
+//        double avg = sum / students.size();
+//        System.out.println("Average grade: " + avg);
     }
 }

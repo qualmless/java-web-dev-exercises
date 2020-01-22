@@ -5,11 +5,11 @@ import java.util.ArrayList;
 
 public class ArrayListWordLength {
 
-//    public static ArrayList<String> wordCount (ArrayList<String>(somewords)) {
+//    public static ArrayList<String> wordCount (ArrayList<String> somewords) {
 //
 //        ArrayList<String> finalWordsToCount = new ArrayList<String>();
 //
-//        for (int i = 0; i < someWords.size(); i++) {
+//        for (Integer i = 0; i < someWords.size(); i++) {
 //            if (someWords.get(i).length() == 5) {
 //                finalWordsToCount.add(someWords.get(i));
 //            }

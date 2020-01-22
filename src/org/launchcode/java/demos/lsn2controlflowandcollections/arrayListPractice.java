@@ -3,6 +3,7 @@ package org.launchcode.java.demos.lsn2controlflowandcollections;
 import org.launchcode.java.demos.lsn1datatypes.Message;
 
 import java.util.Arrays;
+import java.util.Scanner;
 import java.util.ArrayList;
 
 public class arrayListPractice {
@@ -15,11 +16,11 @@ public class arrayListPractice {
     public static void main(String[] args) {
         //array list sum
         ArrayList<Integer> sumInts = new ArrayList<>();
-        for (int i = 0; i<11; i++) {
+        for (Integer i = 0; i<11; i++) {
             sumInts.add(i);
         }
 
-        int sumOfNums = SumOfNums.addNums(sumInts);
+        Integer sumOfNums = SumOfNums.addNums(sumInts);
         System.out.println(sumOfNums);
 
 //array list word length
@@ -41,7 +42,7 @@ public class arrayListPractice {
 
 //        ArrayList<String> arrayListWordLength = ArrayListWordLength.wordCount(finalWordsToCount);
 //        System.out.println(arrayListWordLength);
-        System.out.println(someWords);
+//        System.out.println(someWords);
 
 
 
