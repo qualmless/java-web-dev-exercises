@@ -5,7 +5,9 @@ import org.junit.Before;
 import org.junit.After;
 import org.launchcode.java.demos.lsn5unittesting.main.Car;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
 
 public class CarTest {

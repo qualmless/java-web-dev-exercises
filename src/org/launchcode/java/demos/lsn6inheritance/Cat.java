@@ -62,6 +62,10 @@ public class Cat {
         hungry = false;
     }
 
+    public Cat () {
+        weight = 13;
+    }
+
     public String noise () {
         return "Meeeeeeooooowww!";
     }
